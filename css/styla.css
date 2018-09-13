@@ -1,0 +1,168 @@
+
+
+	.heroine-image{
+	background-image: url("../IMAGE/heroine.jpg");
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.heroine-text{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 300px;
+	transform: translate(-50%, -50%);
+	color: black;
+}
+
+.lucy{
+	margin-top: 10px;
+
+}
+
+.needle{
+	background-color: grey;
+	overflow: hidden;
+}
+
+.needle a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: italic;
+	font-size: 17px;
+}
+
+.needle a: hover{
+	background-color: purple
+	color: white;
+}
+
+.needle a.active{
+	background-color: purple;
+	color: hotpink;
+}
+
+.round{
+	display: inline-flex;
+
+}
+
+.specialties{
+	display: inline-flex;
+	float: left;
+	font-family: monospace;
+	font-size: 17px
+}
+
+.specs{
+	display: inline-flex;
+	float: left;
+	font-family: monospace;
+	font-size: 17px
+}
+
+.spea{
+	display: inline-flex;
+	float: left;
+	font-family: monospace;
+	font-size: 17px
+}
+
+
+.gummy{
+	float: right;
+
+}
+
+.bears{
+	float: right;
+}
+
+.sugar{
+	float: right;
+}
+
+
+.good{
+	display: inline-flex;
+}
+
+.man{
+	float: right;
+}
+
+
+.qm{
+	float: left;
+}
+
+.round{
+	float: right;
+}
+
+
+.bae{
+	font-size: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.navbar a {
+  float: left;
+  display: inline-flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.main {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
